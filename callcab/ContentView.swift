@@ -194,7 +194,7 @@ struct DriverTrackingView: View {
             VStack {
                 // Harita görünümü
                 Map(coordinateRegion: $region)
-                    .edgesIgnoringSafeArea(.all) // Ekranın tamamını kapla
+                    .edgesIgnoringSafeArea(.all)
 
                 // Sürücü bilgileri paneli
                 VStack(alignment: .leading, spacing: 10) {
